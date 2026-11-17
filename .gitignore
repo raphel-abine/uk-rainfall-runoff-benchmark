@@ -1,0 +1,14 @@
+# Raw and converted data: download from the EIDC instead (licence and size)
+data/
+
+# Large model outputs: trained weights, run folders, per-catchment simulations
+outputs/lstm/runs/
+outputs/lstm/sim*/
+outputs/gr_models*/sim/
+*.pt
+*.p
+*.nc
+
+# Python / Jupyter clutter
+__pycache__/
+.ipynb_checkpoints/

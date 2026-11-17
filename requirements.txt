@@ -1,0 +1,14 @@
+# Python packages (install PyTorch with CUDA first: see https://pytorch.org/get-started)
+torch
+neuralhydrology
+pandas
+numpy
+xarray
+netCDF4
+geopandas
+matplotlib
+scipy
+statsmodels
+jupyterlab
+
+# R packages (install in R):  install.packages("airGR")
