@@ -1,6 +1,6 @@
 # Rainfall–runoff model benchmark: conceptual models vs deep learning on 128 UK catchments
 
-**Technical report** · Author: Raphel Etoyiva Abine · November 2026
+**Technical report** · Author: Raphel Etoyiva Abine (Doctoral Researcher, Brunel University London)· November 2026
 
 This project compares how well four conceptual rainfall–runoff models (GR4J, GR6J, and both with a snow module) and a deep-learning model (LSTM) simulate daily river flow across 128 near-natural catchments in Great Britain. It follows a published benchmarking protocol, tests every model on the same unseen decade, and checks whether the conclusions still hold when the input rainfall and evaporation data are changed.
 
