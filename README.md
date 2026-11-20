@@ -225,7 +225,7 @@ All models were recalibrated and retrained with a second, independent set of inp
 |---|---|---|---|
 | 1 | Retrain the LSTM with hydrogeology descriptors (aquifer type and productivity) | Tests whether missing groundwater information explains the LSTM's weakness in chalk | ~9 GPU-hours |
 | 2 | Run with CEH-GEAR rainfall plus Hydro-PE evaporation | Separates the effect of the rainfall product from the evaporation product on peak timing | ~10 GPU-hours |
-| 3 | Hourly flood forecasting with PDM (the rainfall-runoff model used in UK flood forecasting) at several lead times | Moves from daily simulation to operational forecasting | Separate project |
+| 3 | Hourly flood forecasting with PDM (the rainfall-runoff model used in UK flood forecasting) at several lead times | Moves from daily simulation to operational forecasting | Separate project : **Hourly flood forecasting with PDM – done as a follow-on project:** [aire-pdm-flood-forecasting](https://github.com/raphel-abine/aire-pdm-flood-forecasting). |
 | 4 | Calibrate and train with a flood-focused or low-flow-focused objective | Addresses the shared ~10% flood underestimation | ~1 day plus GPU time |
 
 ---
